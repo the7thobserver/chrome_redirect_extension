@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Keyword Search Redirect",
+  "version": "1.0",
+  "description": "Type 's <keyword>' to search GitHub or 'j <keyword>' to search Jira.",
+  "permissions": ["tabs"],
+  "omnibox": {
+    "keyword": "s"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
